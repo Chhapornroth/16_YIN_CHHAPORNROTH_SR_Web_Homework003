@@ -100,6 +100,9 @@ nav ul{
     margin-top: 50px;
     margin-left: 70px;
 }
+.extra-figures-container{
+    display: flex;
+}
 
 .metaphor-phrase{
     font-size: 3em;
@@ -135,6 +138,7 @@ nav ul{
 }
 #to-right-play-icons i{
     font-size: 20px;
+    padding-left: 4px;
 }
 #to-right-play-icons:hover{
     border: 2px solid #289EBB;
@@ -314,6 +318,9 @@ nav ul{
     color: white;
     border: 2px solid #f35505;
 }
+.second-main-homepage-container button i{
+    margin-left: 5px;
+}
 .second-main-homepage-container figure{
     height: 80%;
     display: flex;
@@ -384,7 +391,7 @@ nav ul{
     position: relative;
 }
 .third-main-homepage-container figure img{
-    width: 250px;
+    width: 270px;
     border-radius: 20px;
 }
 .commends{
@@ -395,20 +402,40 @@ nav ul{
     opacity: 0.9;
     border-radius: 20px;
     align-content: center;
-    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 .avatar{
     width: 50px;
     height: 50px;
     overflow: hidden;
     border-radius: 100%;
-    margin-bottom: 3px;
 }
-.avatar img{
-    width: inherit;
-    height: inherit;
+#pic1{
+    height: 50px;
+    width: 50px;
 }
-
+#pic2{
+    height: 50px;
+    width: 50px;
+}
+.name-profile{
+    font-size: 12px;
+}
+#profile-1{
+    position: absolute;
+    right: 160px;
+    top: 100px;
+}
+#profile-2{
+    gap: 25px;
+    position: absolute;
+    right: -80px;
+    bottom: 20%;
+}
 /*the end of the third section of the homepage container*/
 
 footer{
@@ -417,4 +444,22 @@ footer{
     padding: 25px;
     text-align: center;
     background-color: #F5F5F5;
+}
+#fixed-arrow-up{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    bottom: 25px;
+    right: 25px;
+    line-height: 50px;
+}
+#fixed-arrow-up i{
+    color: #289EBB;
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
 }

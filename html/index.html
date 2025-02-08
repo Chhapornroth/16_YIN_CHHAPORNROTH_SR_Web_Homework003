@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../styles/stylesheet.css">
 </head>
-<body>
+<body id="body">
     <nav>
         <h2>Travel</h2>
         <ul>
@@ -17,7 +17,7 @@
         </ul>
         <button id="contact-us-button">Contact Us</button>
     </nav>
-    <section class="top-main-homepage-container">
+    <section class="top-main-homepage-container" id="top">
         <aside>
             <ul id="aside">
                 <li>All</li>
@@ -26,14 +26,14 @@
             </ul>
         </aside>
         <article class="figures-and-a-short-metaphor-for-homepage">
-            <figure class="figures-container" style="display: flex;">
+            <figure class="figures-container extra-figures-container">
                 <figure class="figures-group">
                     <div class="highlight profile-container">
                         <div id="profile">
-                            <img src="../img/shinchan-1-1.jpg" alt="shin chan">
+                            <img src="../img/sebastian.jpg" alt="profile">
                         </div>
                         <h4>Sebastian</h4>
-                        <p>Svay Rieng</p>
+                        <p>Los Angeles</p>
                         <p id="rate"><b>4.5</b></p>
                         <p id="stars"><span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></span></p>
                     </div>
@@ -73,7 +73,7 @@
                 <p id ="under-metaphor-phrase">To get the best of your adventure <br> you just need to leave and <br>go where you like.</p>
                 <div id="explore-more-container">
                     <button id="explore-more-btn">Explore More</button>
-                    <button id="to-right-play-icons"><i class="fa-solid fa-play" style="padding-left: 4px"></i></button>
+                    <button id="to-right-play-icons"><i class="fa-solid fa-play"></i></button>
                 </div>
             </article>
         </article>
@@ -82,7 +82,7 @@
         <article>
             <h2>Explore wonderful places around the world with us.</h2>
             <p>Give yourself a chance to get out of your comfort zone. <br> You will be able to see how wide the world is,<br> and how beautiful it is. </p>
-            <button>Explore More  <i class="fa-solid fa-arrow-right" style="margin-left: 5px;"></i></button>
+            <button>Explore More  <i class="fa-solid fa-arrow-right"></i></button>
         </article>
         <figure>
             <img src="../img/morning-sunrise.jpg" alt="morning sunrise">
@@ -114,17 +114,24 @@
             </div>
             <figure>
                 <img src="../img/village.jpg" alt="village">
-                <div class="commends">
+                <div class="commends" id="profile-1">
                     <div class="avatar">
-                        <img src="../img/shinchan-1-1.jpg" alt="shin chan">
+                        <img id="pic1" src="../img/sebastian.jpg" alt="profile">
                     </div>
-
+                    <p class="name-profile">Sebastian Wilder<br>🩵🩵</p>
+                </div>
+                <div class="commends" id="profile-2">
+                    <div class="avatar">
+                        <img id="pic2" src="../img/mia-dolan.webp" alt="profile">
+                    </div>
+                    <p class="name-profile">Mia Dolan<br>🩵🩵🩵</p>
                 </div>
             </figure>
         </article>
     </section>
     <footer>
         <p>&copyCopyright 2025 | KSHRD Web team</p>
+        <a href="#body"><div id="fixed-arrow-up"><i class="fa-solid fa-arrow-up"></i></div></a>
     </footer>
 </body>
 </html>
